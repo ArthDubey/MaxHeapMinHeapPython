@@ -1,5 +1,6 @@
 from heapq import heappop,heappush,heapify
 from MinHeapClass import Min_Heap
+import random
 def randomArray(up):
     r=[random.randint(0,1000) for i in range(0,random.randint(5,up))]
     return r
